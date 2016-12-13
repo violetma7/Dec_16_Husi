@@ -1,9 +1,28 @@
-<div>
-    <ul class="nav nav-pills">
-      <li class="nav-item"><a class="nav-link" [routerLink]="['home']">首页</a></li>
-      <li class="nav-item"><a class="nav-link" [routerLink]="['product']">产品</a></li>
-      <li class="nav-item"><a class="nav-link" [routerLink]="['job']">工作机会</a></li>
-      <li class="nav-item"><a class="nav-link" [routerLink]="['about']">关于我们</a></li>
-      <li class="nav-item"><a class="nav-link" [routerLink]="['contact']">联系我们</a></li>
-    </ul>
+<div class="row">
+  <div class="col-md-6"><img src="./assets/logo.png"></div>
+  <!--<div class="col-xs-6 col-sm-4 "></div>-->
+  <div class="col-md-6">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="input-group">
+          <input type="text" class="form-control" placeholder="产品">
+          <span class="input-group-btn">
+            <button class="btn btn-default" type="button">搜索</button>
+          </span>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <ul class="nav nav-pills">
+        <li class="nav-item"><a class="nav-link" [routerLink]="['home']">首页</a></li>
+        <li class="nav-item"><a class="nav-link" [routerLink]="['product']">产品</a></li>
+        <li class="nav-item"><a class="nav-link" [routerLink]="['job']">工作机会</a></li>
+        <li class="nav-item"><a class="nav-link" [routerLink]="['about']">关于我们</a></li>
+        <li class="nav-item"><a class="nav-link" [routerLink]="['contact']">联系我们</a></li>
+      </ul>
+    </div>
+  </div>
 </div>
+<ol class="breadcrumb">护丝</ol>
+
+
