@@ -11,6 +11,9 @@ import { JobComponent } from './job/job.component';
 import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
 import {appRoutes} from "./app.routes";
+import { ImageSliderComponent } from './image-slider/image-slider.component';
+// import { MaterialModule } from '@angular/material';
+import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -20,13 +23,16 @@ import {appRoutes} from "./app.routes";
     ProductComponent,
     JobComponent,
     AboutComponent,
-    ContactComponent
+    ContactComponent,
+    ImageSliderComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
     HttpModule,
-    appRoutes
+    appRoutes,
+    NgbModule.forRoot()
+    // MaterialModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]
