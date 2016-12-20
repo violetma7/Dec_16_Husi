@@ -14,6 +14,8 @@ import {appRoutes} from "./app.routes";
 import { ImageSliderComponent } from './image-slider/image-slider.component';
 // import { MaterialModule } from '@angular/material';
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
+import { CaseComponent } from './case/case.component';
+import { PortfolioComponent } from './portfolio/portfolio.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +26,9 @@ import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
     JobComponent,
     AboutComponent,
     ContactComponent,
-    ImageSliderComponent
+    ImageSliderComponent,
+    CaseComponent,
+    PortfolioComponent
   ],
   imports: [
     BrowserModule,
